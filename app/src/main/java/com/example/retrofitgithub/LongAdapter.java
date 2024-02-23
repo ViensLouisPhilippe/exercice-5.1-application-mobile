@@ -1,7 +1,6 @@
 package com.example.retrofitgithub;
 
 
-import android.content.ClipData;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -12,7 +11,7 @@ import com.example.retrofitgithub.databinding.ItemLongBinding;
 import java.util.ArrayList;
 import java.util.List;
 
-public class longAdapter extends RecyclerView.Adapter<longAdapter.ViewHolder> {
+public class LongAdapter extends RecyclerView.Adapter<LongAdapter.ViewHolder> {
 
     public List<Long> longList;
 
@@ -34,7 +33,7 @@ public class longAdapter extends RecyclerView.Adapter<longAdapter.ViewHolder> {
     /**
      * Initialize the dataset of the Adapter
      */
-    public longAdapter() { longList = new ArrayList<>(); }
+    public LongAdapter() { longList = new ArrayList<>(); }
 
     // Create new views (invoked by the layout manager)
     @Override
