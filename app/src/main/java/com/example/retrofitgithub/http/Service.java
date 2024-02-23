@@ -9,4 +9,6 @@ public interface Service {
     @GET("exos/long/list")
     Call<List<Long>> getLongs();
 
+    @GET("exos/truc/list")
+    Call<List<Truc>> getTrucs();
 }
